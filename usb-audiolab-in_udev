@@ -1,0 +1,5 @@
+#!/bin/bash
+
+#/usr/local/bin/usb-audiolab-in_udev
+
+/usr/local/bin/usb-audiolab-in &
