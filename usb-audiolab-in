@@ -1,0 +1,7 @@
+#!/bin/bash
+
+#/usr/local/bin/usb-audiolab-in
+
+sleep 1
+echo "Restarting squeezelite..."
+/etc/init.d/squeezelite restart
