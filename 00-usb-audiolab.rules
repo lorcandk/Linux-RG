@@ -1,3 +1,1 @@
-#/etc/udev/rules.d/00-usb-audiolab.rules
-
 ACTION=="add", ATTRS{idVendor}=="0451", ATTRS{idProduct}=="adac", RUN+="/usr/local/bin/usb-audiolab-in_udev"
